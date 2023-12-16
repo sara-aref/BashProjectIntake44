@@ -16,7 +16,7 @@ do
         	source ../createDB.sh
         ;;
         "listdb")
-        	ls -F `pwd` | grep /$
+        	source ../listdb.sh
         ;;
         "dropdb")
         	source ../dropDB
